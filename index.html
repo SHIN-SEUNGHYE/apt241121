@@ -10,10 +10,27 @@
             margin: 0; padding: 0;
             /* 배경색 */
             background-color: #f5699d;
-            /* display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; */
+            /* 애니메이션 정의 */
+            animation: bgChange 1s infinite alternate;
+            /* infinite : 무한 반복,  alternate : 동작 교차 */
+        }
+        /* 배경색 변경 애니메이션 */
+        @keyframes bgChange {
+            0% {background-color: #9b0000;
+            }
+            15% {background-color: #d63500;
+            }
+            35% {background-color: #d5bc00;
+            }
+            50% {background-color: #119300;
+            }
+            65% {background-color: #0026ff;
+            }
+            85% {background-color: #130069;
+            }
+            100% {background-color: #7c00a2;
+            }
+         
         }
         div {
             /* 요소를 중앙정렬 하고자 할 때 아래 구조로 코딩함 */
