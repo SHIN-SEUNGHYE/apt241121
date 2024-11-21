@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신승혜-Rose APT-24.11.21</title>
+    <style>
+        body {
+            /* 초기화 */
+            margin: 0; padding: 0;
+            /* 배경색 */
+            background-color: #f5699d;
+            /* display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; */
+        }
+        div {
+            /* 요소를 중앙정렬 하고자 할 때 아래 구조로 코딩함 */
+            position: absolute; /*위치*/
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+            /*x,y*/
+        }
+        div a img {
+            /* 부모 사이즈(디바이스)에 따라 최대 사이즈 100%로 맞춰짐 > 이미지 늘어났다 줄어들었다 */
+            /* 반응형 작업시 사용 */
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- ctrl + / : 주석 -->
+    <!-- shift + alt + ↓ : 복사-->
+     <div><a href="https://www.blackpinkmusic.com">
+        <img src="./images/apt.svg" alt="로제의 아파트 이미지">
+    </a>
+</div>
+</body>
+</html>
